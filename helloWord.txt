@@ -34,3 +34,4 @@ git add git commit git push
 7. mergiar unir o codigo da branch temporaria para branch principal
 8.git push da brancch principal
 
+entendendo o git pull request
