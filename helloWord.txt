@@ -7,11 +7,26 @@ git push
 
 git checckout //muda de branch
 git branch //mostra as branch
-git brancch novabrancch //cria nova branch
+git branch novabrancch //cria nova branch
+git checkout -b nomedabranch //tambem cria nova brancch
 
 git reset --hard idreflog //retorna para o id do commit escolhido
 git reflog //mostra o historico de commits
 
 
 git push --set-upstream origin staging //comando sugerido pelo git
+
+sugestao de passo a passo no uso de pull e merge
+
+1. git pull da branch principal
+git pull
+2. gerar uma nova branc a partir da branch principal
+git checkout -b novabranch master(principal)
+3. trabalhar e adicionar novas funcionalidades na nova branch que criou
+4.finalizar o trabalho na branch temporaria
+git add git commit git push
+5.git checkout principal
+6. git pull
+7. mergiar unir o codigo da branch temporaria para branch principal
+8.git push da brancch principal
 
