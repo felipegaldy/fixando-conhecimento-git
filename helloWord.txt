@@ -13,5 +13,8 @@ git reset --hard idreflog //retorna para o id do commit escolhido
 git reflog //mostra o historico de commits
 
 
-git push --set-upstream origin staging //comando sugerido pelo git
+git push --set-upstream origin staging //comando sugerido pelo git par a nova branch
+
+git merge staging //pega as alteracoes da staging e traz para a brancch atual(master)
+
 
