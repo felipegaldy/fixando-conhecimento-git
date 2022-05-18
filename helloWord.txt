@@ -1,2 +1,17 @@
-Ola mundo!
-Estaudando o git
+comandos git essenciais
+git init
+git status
+git add .
+git commit -m ""
+git push
+
+git checckout //muda de branch
+git branch //mostra as branch
+git brancch novabrancch //cria nova branch
+
+git reset --hard idreflog //retorna para o id do commit escolhido
+git reflog //mostra o historico de commits
+
+
+git push --set-upstream origin staging //comando sugerido pelo git
+
