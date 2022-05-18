@@ -15,6 +15,7 @@ git reflog //mostra o historico de commits
 
 git push --set-upstream origin staging //comando sugerido pelo git par a nova branch
 
-git merge staging //pega as alteracoes da staging e traz para a brancch atual(master)
 
+git pull // busca atualizacoes, *sempre utilizar antes do merge*
+git merge staging //pega as alteracoes da staging e traz para a brancch atual(master)
 
